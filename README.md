@@ -23,31 +23,24 @@ A comprehensive web application for detecting and analyzing potential conflicts 
 
 1. **Clone or download the project**
    ```bash
-   git clone <repository-url>
-   cd uav-deconfliction-system
+   git clone https://github.com/chinu0609/deconflicting_system.git
+   cd deconflicting_system
    ```
 
 2. **Install dependencies**
    ```bash
-   pip install streamlit numpy pandas plotly
+   uv sync --frozen
    ```
 
 3. **Run the application**
+   Activate the env and 
    ```bash
    streamlit run app.py --server.port 5000
    ```
 
-4. **Open your browser**
+5. **Open your browser**
    Navigate to `http://localhost:5000` to access the application.
 
-### Alternative Installation (using requirements.txt)
-
-If you prefer using a requirements file:
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
 
 ## User Interface Guide
 
